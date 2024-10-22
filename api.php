@@ -6,10 +6,7 @@ error_reporting(E_ALL);
 
 $allowedUrls = [
     'https://stream.zeno.fm/ynma3edkfx0vv',
-    'https://sv2.globalhostlive.com/proxy/bendistereo/stream2',
-    'https://azuracast.invictamix.pt:8093/emissao.mp3',
-    'https://stream.radiorostova.ru/radio-rostova-high.mp3',
-    'https://stm16.xcast.com.br:7208/stream',
+   
 
     // Adicione outras URLs permitidas aqui
 ];
