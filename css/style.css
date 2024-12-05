@@ -101,7 +101,6 @@ body {
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
 
-   
 }
 
 .info-current-song h3 {
@@ -111,6 +110,7 @@ body {
     text-align: center;
 
 }
+
 
 .current-song {
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
@@ -353,7 +353,7 @@ input[type=range]::-ms-thumb {
     .volume-control {
         margin-top: 10%;
     }
-}
+
 
 #buttonPlay {
     padding-left: 10px;
