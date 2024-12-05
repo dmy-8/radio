@@ -322,39 +322,6 @@ input[type=range]::-ms-thumb {
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 370px) {
-    .cover-album {
-        max-width: 100%;
-    }
-}
-
-@media(min-width: 576px) {
-    .volume-control {
-        display: flex;
-    }
-
-    .call-lyrics {
-        margin-top: 20px;
-    }
-}
-
-@media(min-width: 768px) {
-    body {
-        align-items: center;
-    }
-
-    .h1-logo {
-        text-align: center;
-    }
-
-    .logo {
-        display: block;
-        z-index: 2;
-    }
-
-    .logo img {
-        max-width: 200px;
-    }
 
     .web-player {
         height: auto;
