@@ -24,6 +24,7 @@ body {
     background-size: cover;
     transition: background-image 1s;
     background-attachment: fixed;
+    gap:20px;
 }
 
 /* FONDO DESENFOQUE */
@@ -45,6 +46,8 @@ body {
 .bg-mask {
     min-width: 100%;
     min-height: 100%;
+    overflow: clip;
+    border-radius: 10px;
     position: absolute;
      background-color: rgba(0,0,0,0.0);
     z-index: 2;
@@ -60,11 +63,11 @@ body {
 }
 
 .cover-album {
-    max-width: 80%;
+    max-width: 50%;
     margin: auto;
     background: url('../img/cover.png') no-repeat;
     background-size: cover;
-    border: 2px solid #fefefe;
+    border: 5px solid #ffffff;
     box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.4);
     transition: background-image 1s;
     border-radius: 10px;
@@ -92,6 +95,7 @@ body {
 .info-current-song {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    
 }
 
 .info-current-song h2 {
@@ -100,6 +104,9 @@ body {
     font-weight: 800;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
+    font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  
 
 }
 
@@ -108,6 +115,9 @@ body {
     font-weight: 600;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+  
 
 }
 
@@ -122,13 +132,6 @@ body {
 
 }
 
-.play-pause {
-    font-size: 65px;
-}
-
-.play-pause i {
-    cursor: pointer;
-}
 
 .volume-icon {
     font-size: 28px;
@@ -355,21 +358,21 @@ input[type=range]::-ms-thumb {
     }
 
 
-#buttonPlay {
-    padding-left: 10px;
-}
+ 
+
 #playerButton {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .play-pause i {
     cursor: pointer;
 }
+
 .btn-play {
     background-color: white;
     border: none;
     color: black;
     padding: 10px 20px; /* Reduzindo o preenchimento */
-    font-size: 14px; /* Reduzindo o tamanho da fonte */
+    font-size: 15px; /* Reduzindo o tamanho da fonte */
     font-weight: bold;
     cursor: pointer;
     border-radius: 20px;
