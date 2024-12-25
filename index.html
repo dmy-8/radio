@@ -1,10 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
-    <body oncontextmenu="return false" onkeydown="return false">
-        
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radio Player</title>
@@ -16,7 +15,7 @@
 </head>
 
 <body>
-
+    <div class="container">
     <div class="cover-site">
         <div id="bgCover"></div>
         <div class="bg-mask"></div>
@@ -36,7 +35,10 @@
                             <div class="col-12 ml-md-auto col-md-6">
                                 <div class="row">
                                     <div class="col-12">
-                                        
+                                        <div class="info-current-song">
+                                            <h2 id="currentSong" class="current-song text-uppercase">Música </h2>
+                                            <h3 id="currentArtist" class="current-artist text-captalize">Artista</h3>
+                                        </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="row">
@@ -45,10 +47,6 @@
                                                     <i id="playerButton" class="fa fa-play"></i> <span id="buttonPlay">PLAY</span>
                                                 </button>
                                             </div>
-                                        </div>
-                                        <div class="info-current-song">
-                                            <h2 id="currentSong" class="current-song text-uppercase">Música</h2>
-                                            <h3 id="currentArtist" class="current-artist text-captalize">Artista</h3>
                                         </div>
                                         <div class="row">
                                             <div class="col-12 col-md-6 text-center">
@@ -73,8 +71,12 @@
                                         </small>
                                                     
                                                     
-                                                       <img src="img/logo1.png" alt="logo Footer" class="footer-logo player-logo" height="51">
-                                                  </div>    
+                                                       <img src="images/logo1.png" alt="logo Footer" class="footer-logo player-logo" height="60">
+                                                  </div>
+                                                </div>
+                                              </footer>
+                                              
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
