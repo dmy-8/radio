@@ -25,8 +25,8 @@ button{
 
 
 .cover-site {
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100dvh;
+    min-height: 100dvh;
     position: fixed;
     background: url(' ') no-repeat;
     background-position: center;
